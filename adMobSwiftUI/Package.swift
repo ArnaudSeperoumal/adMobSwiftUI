@@ -25,13 +25,11 @@ let package = Package(
             name: "adMobSwiftUI",
             dependencies: [
                 .product(name: "GoogleMobileAds", package: "swift-package-manager-google-mobile-ads")
-            ],
-            path: "adMobSwiftUI"
+            ]
         ),
         .testTarget(
             name: "adMobSwiftUITests",
-            dependencies: ["adMobSwiftUI"],
-            path: "adMobSwiftUI"
+            dependencies: ["adMobSwiftUI"]
         ),
     ]
 )
