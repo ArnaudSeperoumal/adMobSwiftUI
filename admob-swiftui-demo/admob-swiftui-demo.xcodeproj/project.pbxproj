@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		38F581712DA8843E0003CA37 /* adMobSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 38F581702DA8843E0003CA37 /* adMobSwiftUI */; };
+		387E40D42DA88AC200A4F793 /* adMobSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 387E40D32DA88AC200A4F793 /* adMobSwiftUI */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				38F581712DA8843E0003CA37 /* adMobSwiftUI in Frameworks */,
+				387E40D42DA88AC200A4F793 /* adMobSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,7 +70,7 @@
 			);
 			name = "admob-swiftui-demo";
 			packageProductDependencies = (
-				38F581702DA8843E0003CA37 /* adMobSwiftUI */,
+				387E40D32DA88AC200A4F793 /* adMobSwiftUI */,
 			);
 			productName = "admob-swiftui-demo";
 			productReference = 3880786C2D6C750F00A82D5B /* admob-swiftui-demo.app */;
@@ -101,7 +101,7 @@
 			mainGroup = 388078632D6C750F00A82D5B;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				38F5816F2DA8843E0003CA37 /* XCLocalSwiftPackageReference "../../adMobSwiftUI" */,
+				387E40D22DA88AC200A4F793 /* XCLocalSwiftPackageReference "../../adMobSwiftUI" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 3880786D2D6C750F00A82D5B /* Products */;
@@ -339,14 +339,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCLocalSwiftPackageReference section */
-		38F5816F2DA8843E0003CA37 /* XCLocalSwiftPackageReference "../../adMobSwiftUI" */ = {
+		387E40D22DA88AC200A4F793 /* XCLocalSwiftPackageReference "../../adMobSwiftUI" */ = {
 			isa = XCLocalSwiftPackageReference;
 			relativePath = ../../adMobSwiftUI;
 		};
 /* End XCLocalSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		38F581702DA8843E0003CA37 /* adMobSwiftUI */ = {
+		387E40D32DA88AC200A4F793 /* adMobSwiftUI */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = adMobSwiftUI;
 		};

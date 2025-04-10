@@ -3,9 +3,7 @@ import PackageDescription
 
 let package = Package(
     name: "adMobSwiftUI",
-    platforms: [
-        .iOS(.v17) // v18 pourrait ne pas être supporté par Xcode 16.2, reste sur v17 pour l'instant
-    ],
+    platforms: [.iOS(.v17)],
     products: [
         .library(name: "adMobSwiftUI", targets: ["adMobSwiftUI"])
     ],
@@ -15,15 +13,13 @@ let package = Package(
     targets: [
         .target(
             name: "adMobSwiftUI",
-            dependencies: [
-                .product(name: "GoogleMobileAds", package: "swift-package-manager-google-mobile-ads")
-            ],
-            path: "adMobSwiftUI"
+            dependencies: [.product(name: "GoogleMobileAds", package: "swift-package-manager-google-mobile-ads")],
+            path: "adMobSwiftUI/Sources/adMobSwiftUI"
         ),
         .testTarget(
             name: "adMobSwiftUITests",
             dependencies: ["adMobSwiftUI"],
-            path: "adMobSwiftUI"
+            path: "adMobSwiftUI/Tests/adMobSwiftUITests"
         )
     ]
 )
